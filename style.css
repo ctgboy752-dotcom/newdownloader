@@ -1,0 +1,39 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom right, #007bff, #6f42c1);
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  background: #fff;
+  color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffe600;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 14px;
+  opacity: 0.8;
+}
